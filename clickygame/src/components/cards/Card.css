@@ -1,0 +1,20 @@
+.card {
+  width: 170px;
+  height: 170px;
+  position: relative;
+  background-size: cover;
+  background-position: 50%;
+  margin: 8px 25px;
+  border: 5px solid wheat;
+  border-radius: 3px;
+}
+
+.img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card > .img-container > img {
+  width: 100%;
+}
