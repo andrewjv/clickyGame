@@ -61,7 +61,7 @@ class App extends Component {
       chosenCharacters[0].clicked = true;
       // Restart the score
       score = 0;
-      clickMessage = "You defeated them all. Ready for Sigma?";
+      clickMessage = "You defeated them all. Ready for to play again?";
       topScore = 12;
       this.setState({ topScore });
 
